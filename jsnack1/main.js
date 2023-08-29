@@ -32,7 +32,7 @@ if (userNumber1 < userNumber2) {
 if (userNumber1 === userNumber2) {
   message = "I numeri sono uguali: ";
 } else if ("") {
-  message = "insewrisci nuovamente 2 numeri ";
+  message = "inserisci nuovamente 2 numeri ";
 }
 
 var numberList = [userNumber1, userNumber2];
