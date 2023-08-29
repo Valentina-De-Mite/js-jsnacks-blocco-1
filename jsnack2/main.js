@@ -41,8 +41,4 @@ if (userWord1.length < userWord2.length) {
   message = "Le parole sono lunghe uguali: ";
 }
 
-console.log(message + Math.max(userWord1.length, userWord2.length));
-
-let wordLenght = Math.max(userWord1.length, userWord2.length);
-
-words.innerHTML = message + wordLenght + word2;
+words.innerHTML = "La parola piu' corta e': " + word2 + " ; " + message;
